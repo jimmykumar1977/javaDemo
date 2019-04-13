@@ -18,7 +18,7 @@ public class JavaDemoApplication {
 		try {
 			String pathname = System.getProperty("outpath");
 			if (StringUtils.isEmpty(pathname)) {
-				System.out.println(" blank folde r .Exiting application");
+				System.out.println("blank folder .Exiting application");
 				System.exit(0);
 			}
 			out.output(pathname);
